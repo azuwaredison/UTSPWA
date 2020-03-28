@@ -48,7 +48,7 @@ $(document).ready(function(){
         renderPage(data)
         consol.log('render data from cache')
       }
-    }),catch(function(){
+    }).catch(function(){
       return networkUpdate
     })
 
